@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/golden-valley-integrated-campus-chittoor-60636",
   "https://www.shiksha.com/college/college-of-engineering-thalassery-kannur-60678",
   "https://www.shiksha.com/college/sdm-p-g-centre-for-management-studies-and-research-mangalore-69527",
-  "https://www.shiksha.com/college/parijat-college-indore-142837",
-  "https://www.shiksha.com/college/pgp-college-of-arts-and-science-pgpcas-namakkal-22866",
-  "https://www.shiksha.com/college/ramanujan-college-of-management-rcm-haryana-other-28005",
-  "https://www.shiksha.com/college/jan-nayak-chaudhary-devi-lal-institute-of-business-management-sirsa-72429",
-  "https://www.shiksha.com/college/sinhgad-institutes-sinhgad-management-institutes-chandivali-mumbai-38495",
-  "https://www.shiksha.com/college/baselios-mathews-ii-college-of-engineering-kollam-25340",
-  "https://www.shiksha.com/college/himalayan-institute-of-technology-and-management-hitm-lucknow-34737",
+  # "https://www.shiksha.com/college/parijat-college-indore-142837",
+  # "https://www.shiksha.com/college/pgp-college-of-arts-and-science-pgpcas-namakkal-22866",
+  # "https://www.shiksha.com/college/ramanujan-college-of-management-rcm-haryana-other-28005",
+  # "https://www.shiksha.com/college/jan-nayak-chaudhary-devi-lal-institute-of-business-management-sirsa-72429",
+  # "https://www.shiksha.com/college/sinhgad-institutes-sinhgad-management-institutes-chandivali-mumbai-38495",
+  # "https://www.shiksha.com/college/baselios-mathews-ii-college-of-engineering-kollam-25340",
+  # "https://www.shiksha.com/college/himalayan-institute-of-technology-and-management-hitm-lucknow-34737",
 ]
 
 
