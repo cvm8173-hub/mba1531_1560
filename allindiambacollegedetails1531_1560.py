@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-yn-college-west-godavari-23115",
-  "https://www.shiksha.com/college/kimds-kejriwal-institute-of-management-and-development-studies-ranchi-37398",
-  "https://www.shiksha.com/college/nuovos-ajeenkya-d-y-patil-university-charholi-budruk-pune-202643",
-  "https://www.shiksha.com/college/shri-swami-samarth-institute-of-management-technology-maharashtra-other-213275",
-  "https://www.shiksha.com/college/samrat-ashok-technological-institute-vidisha-19408",
-  "https://www.shiksha.com/college/dr-k-n-modi-institute-of-engineering-and-technology-modinagar-19942",
-  "https://www.shiksha.com/college/yres-s-bapurao-deshmukh-college-of-engineering-wardha-22458",
-  "https://www.shiksha.com/college/bn-college-of-engineering-and-technology-lucknow-31657",
-  "https://www.shiksha.com/college/sri-sai-institute-of-technology-and-science-ssits-kadapa-43187",
-  "https://www.shiksha.com/university/p-k-university-madhya-pradesh-other-64745",
-  "https://www.shiksha.com/college/cp-and-berar-arts-commerce-college-nagpur-126197",
-  "https://www.shiksha.com/college/amrutvahini-institute-of-management-and-business-administration-ahmednagar-64711",
-  "https://www.shiksha.com/college/st-philominas-college-mysore-69677",
-  "https://www.shiksha.com/college/cihm-central-institute-of-hotel-and-hospitality-management-barrackpore-kolkata-86933",
-  "https://www.shiksha.com/college/ranchi-women-s-college-110245",
-  "https://www.shiksha.com/college/mahendra-institute-of-technology-mit-namakkal-42792",
-  "https://www.shiksha.com/college/jagannath-institute-of-management-sciences-rohini-rohini-delhi-45543",
-  "https://www.shiksha.com/college/footwear-design-and-development-institute-hyderabad-110929",
-  "https://www.shiksha.com/college/apeejay-institute-of-mass-communication-dwarka-delhi-aimc-dwarka-3039",
-  "https://www.shiksha.com/college/shriram-institute-of-management-and-technology-kashipur-30625",
-  "https://www.shiksha.com/college/golden-valley-integrated-campus-chittoor-60636",
-  "https://www.shiksha.com/college/college-of-engineering-thalassery-kannur-60678",
-  "https://www.shiksha.com/college/sdm-p-g-centre-for-management-studies-and-research-mangalore-69527",
-  # "https://www.shiksha.com/college/parijat-college-indore-142837",
-  # "https://www.shiksha.com/college/pgp-college-of-arts-and-science-pgpcas-namakkal-22866",
-  # "https://www.shiksha.com/college/ramanujan-college-of-management-rcm-haryana-other-28005",
-  # "https://www.shiksha.com/college/jan-nayak-chaudhary-devi-lal-institute-of-business-management-sirsa-72429",
-  # "https://www.shiksha.com/college/sinhgad-institutes-sinhgad-management-institutes-chandivali-mumbai-38495",
-  # "https://www.shiksha.com/college/baselios-mathews-ii-college-of-engineering-kollam-25340",
-  # "https://www.shiksha.com/college/himalayan-institute-of-technology-and-management-hitm-lucknow-34737",
+  # "https://www.shiksha.com/college/sri-yn-college-west-godavari-23115",
+  # "https://www.shiksha.com/college/kimds-kejriwal-institute-of-management-and-development-studies-ranchi-37398",
+  # "https://www.shiksha.com/college/nuovos-ajeenkya-d-y-patil-university-charholi-budruk-pune-202643",
+  # "https://www.shiksha.com/college/shri-swami-samarth-institute-of-management-technology-maharashtra-other-213275",
+  # "https://www.shiksha.com/college/samrat-ashok-technological-institute-vidisha-19408",
+  # "https://www.shiksha.com/college/dr-k-n-modi-institute-of-engineering-and-technology-modinagar-19942",
+  # "https://www.shiksha.com/college/yres-s-bapurao-deshmukh-college-of-engineering-wardha-22458",
+  # "https://www.shiksha.com/college/bn-college-of-engineering-and-technology-lucknow-31657",
+  # "https://www.shiksha.com/college/sri-sai-institute-of-technology-and-science-ssits-kadapa-43187",
+  # "https://www.shiksha.com/university/p-k-university-madhya-pradesh-other-64745",
+  # "https://www.shiksha.com/college/cp-and-berar-arts-commerce-college-nagpur-126197",
+  # "https://www.shiksha.com/college/amrutvahini-institute-of-management-and-business-administration-ahmednagar-64711",
+  # "https://www.shiksha.com/college/st-philominas-college-mysore-69677",
+  # "https://www.shiksha.com/college/cihm-central-institute-of-hotel-and-hospitality-management-barrackpore-kolkata-86933",
+  # "https://www.shiksha.com/college/ranchi-women-s-college-110245",
+  # "https://www.shiksha.com/college/mahendra-institute-of-technology-mit-namakkal-42792",
+  # "https://www.shiksha.com/college/jagannath-institute-of-management-sciences-rohini-rohini-delhi-45543",
+  # "https://www.shiksha.com/college/footwear-design-and-development-institute-hyderabad-110929",
+  # "https://www.shiksha.com/college/apeejay-institute-of-mass-communication-dwarka-delhi-aimc-dwarka-3039",
+  # "https://www.shiksha.com/college/shriram-institute-of-management-and-technology-kashipur-30625",
+  # "https://www.shiksha.com/college/golden-valley-integrated-campus-chittoor-60636",
+  # "https://www.shiksha.com/college/college-of-engineering-thalassery-kannur-60678",
+  # "https://www.shiksha.com/college/sdm-p-g-centre-for-management-studies-and-research-mangalore-69527",
+  "https://www.shiksha.com/college/parijat-college-indore-142837",
+  "https://www.shiksha.com/college/pgp-college-of-arts-and-science-pgpcas-namakkal-22866",
+  "https://www.shiksha.com/college/ramanujan-college-of-management-rcm-haryana-other-28005",
+  "https://www.shiksha.com/college/jan-nayak-chaudhary-devi-lal-institute-of-business-management-sirsa-72429",
+  "https://www.shiksha.com/college/sinhgad-institutes-sinhgad-management-institutes-chandivali-mumbai-38495",
+  "https://www.shiksha.com/college/baselios-mathews-ii-college-of-engineering-kollam-25340",
+  "https://www.shiksha.com/college/himalayan-institute-of-technology-and-management-hitm-lucknow-34737",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1531
+    c_count =1554
 
     try:
         for base_url in BASE_URL:
